@@ -1,0 +1,40 @@
+---
+import Logo from '../Logo.astro';
+import SocialIcons from '../SocialIcons.astro';
+import './Footer.css';
+---
+
+<footer>
+	<div class="footer__container">
+		<Logo name="Bianca Rei" />
+		<SocialIcons width="23" height="23" />
+	</div>
+
+	<aside class="footer__links">
+		<ul>
+			<li>
+				<a class="footer__link" href="mailto:biancarei@epfundao.edu.pt"
+					><span
+						><iconify-icon
+							icon="fluent:mail-28-regular"
+							width="27"
+							height="27"
+							style="color: #dcd8fc"></iconify-icon></span
+					>biancarei@epfundao.edu.pt</a>
+			</li>
+			<li>
+				<a class="footer__link"
+                href="https://github.com/Biancarei2007/"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+					><span
+						><iconify-icon
+							icon="mdi:github"
+							width="27"
+							height="27"
+							style="color: #dcd8fc"></iconify-icon></span
+					>@Biancarei2007</a>
+			</li>
+		</ul>
+	</aside>
+</footer>

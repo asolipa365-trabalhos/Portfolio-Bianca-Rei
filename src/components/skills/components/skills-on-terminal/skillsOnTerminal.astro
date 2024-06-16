@@ -1,0 +1,43 @@
+---
+import TerminalIcon from '../../atoms/terminal-icon/TerminalIcon.astro';
+import Terminal from '../terminal/Terminal.astro';
+import './skills-on-terminal.css';
+---
+
+<Terminal nombre="BiancaRei">
+	<div class="terminal__skills">
+		<h2>Minhas habilidades</h2>
+		<div class="terminal__skills__container">
+			<TerminalIcon
+				src="/assets/html.svg"
+				color="#FFA500"
+				name="HTML"
+			/>
+			<TerminalIcon
+				src="/assets/css.svg"
+				color="#00FFFF"
+				name="CSS"
+			/>
+			<TerminalIcon
+				src="/assets/javascript.svg"
+				color="#FFFF00"
+				name="JavaScript"
+			/>
+			<TerminalIcon 
+				src="/assets/react.svg" 
+				color="#4169E1" 
+				name="React" 
+			/>
+			<TerminalIcon 
+				src="/assets/typescript.svg" 
+				color="#0000FF" 
+				name="TypeScript" 
+			/>
+			<TerminalIcon
+				src="/assets/Astro.svg"
+				color="#D2691E"
+				name="Astro"
+			/>
+		</div>
+	</div>
+</Terminal>

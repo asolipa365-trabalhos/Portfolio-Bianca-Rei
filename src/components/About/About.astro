@@ -1,0 +1,29 @@
+---
+import SocialIcons from '../SocialIcons.astro';
+import Title from '../atoms/Title.astro';
+import "./about.css"
+
+
+---
+
+<section id="about" class="about">
+	<div class="about__container">
+		<img
+			class="about__img"
+			src="/img/Bianca-Rei.jpg"
+			alt="Foto de perfil de Bianca Rei"
+		/>
+
+		<div class="about__content">
+			<Title margin="1rem" contenido="Sobre mim" />
+			<p class="about__text">
+				Chamo-me Bianca Rei, tenho 16 anos e atualmente estou a 
+				estudar Programação na Escola Profissional do Fundão. Este 
+				portfólio é uma coleção dos meus trabalhos pessoais e escolares, 
+				onde poderá conhecer melhor a minha trajetória e as minhas habilidades.
+			</p>
+			<SocialIcons width="25" height="25"/>
+		</div>
+	</div>
+
+</section>
